@@ -1,0 +1,17 @@
+{
+  "name": "practica-2-web-server",
+  "version": "1.0.0",
+  "description": "Proyecto de Web Server para curso de NodeJS",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Den Durruty",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
