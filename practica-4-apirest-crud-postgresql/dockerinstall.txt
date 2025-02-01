@@ -1,0 +1,25 @@
+Instala Ubuntu: Ejecuta el siguiente comando en PowerShell para instalar Ubuntu:
+
+wsl --install -d Ubuntu
+Espera la instalación: El proceso de instalación puede tardar unos minutos. Se descargará e instalará Ubuntu.
+
+Configura Ubuntu:
+
+Una vez que la instalación haya terminado, se abrirá una ventana de terminal de Ubuntu.
+
+Se te pedirá que crees un nombre de usuario y una contraseña para el entorno de Linux. Introduce los datos que prefieras.
+
+Instala Docker en Ubuntu:
+
+Actualiza los paquetes de Ubuntu:
+
+sudo apt update
+Instala Docker siguiendo estos comandos:
+
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker $USER
+Después de estos pasos, deberías tener Docker instalado y funcionando en Ubuntu bajo WSL en tu sistema Windows.
+
+Si necesitas más ayuda o tienes alguna otra pregunta, ¡aquí estoy para asistirte! 🚀
